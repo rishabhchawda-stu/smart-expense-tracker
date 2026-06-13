@@ -1,0 +1,34 @@
+.report-header {
+  margin-bottom: var(--spacing-md);
+}
+
+.report-header h3 {
+  margin-bottom: 4px;
+}
+
+.report-header p {
+  font-size: 13px;
+}
+
+/* ========================
+   REPORT SUMMARY (Combined report)
+   ======================== */
+.report-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+}
+
+.report-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.report-stat span:last-child {
+  font-size: 18px;
+  font-weight: 700;
+}

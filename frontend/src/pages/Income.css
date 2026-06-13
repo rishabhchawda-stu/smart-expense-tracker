@@ -1,0 +1,30 @@
+/* ========================
+   ICON BUTTONS (Edit/Delete)
+   ======================== */
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.15s;
+  line-height: 1;
+}
+
+.btn-icon:hover {
+  background-color: var(--color-bg);
+}
+
+/* ========================
+   EMPTY STATE
+   ======================== */
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  color: var(--color-text-secondary);
+}
+
+.empty-state p {
+  margin-bottom: var(--spacing-md);
+}

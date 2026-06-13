@@ -1,0 +1,55 @@
+/* ========================
+   QUICK STAT MINI CARDS
+   ======================== */
+.stat-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat-mini span {
+  font-size: 13px;
+}
+
+.stat-mini h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ========================
+   CHART WRAPPER
+   ======================== */
+.chart-wrapper {
+  position: relative;
+  height: 300px;
+}
+
+.chart-wrapper-pie {
+  height: 280px;
+}
+
+/* ========================
+   ANALYTICS GRID (Pie + Line side by side)
+   ======================== */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
+@media (max-width: 900px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========================
+   COLOR DOT (category table)
+   ======================== */
+.color-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}

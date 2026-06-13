@@ -1,0 +1,37 @@
+/* ========================
+   BUDGET SUMMARY GRID
+   ======================== */
+.budget-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.budget-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.budget-stat-label {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.budget-stat-value {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ========================
+   CUSTOM WARNING ALERT (orange — for "critical" status)
+   ======================== */
+.alert-warning-custom {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  margin-bottom: var(--spacing-md);
+  background-color: #fff7ed;
+  color: #ea580c;
+  border: 1px solid #fed7aa;
+}

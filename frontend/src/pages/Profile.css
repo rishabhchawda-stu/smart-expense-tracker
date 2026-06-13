@@ -1,0 +1,25 @@
+/* ========================
+   INFO GRID (Account Information)
+   ======================== */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-label {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.info-value {
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-all; /* long IDs wrap ho jayein */
+}
