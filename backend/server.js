@@ -11,11 +11,15 @@ const budgetRoutes = require("./routes/budgetRoutes");
 const app = express();
 connectDB();
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174","https://smart-expense-tracker-kyrf.onrender.com/api"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:5174",
+  "https://smart-expense-tracker-kyrf.onrender.com",
+  "https://smart-expense-tracker-beta-nine.vercel.app",
+];
 
 app.use(cors({
   origin: function (origin, callback) {
-    // agar origin allowedOrigins mein hai, ya request Postman se aayi hai (origin undefined)
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
