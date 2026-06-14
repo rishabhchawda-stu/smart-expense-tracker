@@ -9,6 +9,16 @@ A full-stack MERN application for managing personal income, expenses, budgets, a
 
 ---
 
+## 🚀 Live Demo
+
+**[Click Here to View Live App](https://smart-expense-tracker-beta-nine.vercel.app)**
+
+> **Test Credentials**
+> - Email: `nis12@gmail.com`
+> - Password: `123456`
+
+---
+
 ## Features
 
 - **Authentication** — JWT-based register/login, protected routes, profile management, password change
@@ -146,8 +156,6 @@ App runs at `http://localhost:5173`
 
 ## Screenshots
 
-## Screenshots
-
 ### Login / Register
 ![Login](screenshots/login.png)
 ![Register](screenshots/register.png)
@@ -185,3 +193,14 @@ App runs at `http://localhost:5173`
 
 ---
 
+## Author
+
+Rishabh Chawda
+- GitHub: [@rishabhchawda-stu](https://github.com/rishabhchawda-stu)
+
+
+---
+
+## License
+
+This project is open source and available for learning purposes.
